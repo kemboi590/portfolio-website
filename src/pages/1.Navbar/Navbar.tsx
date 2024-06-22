@@ -27,7 +27,7 @@ export const Navbar = () => {
   return (
     <div className="flex justify-evenly lg:justify-around items-center h-16 shadow-sm text-text-light">
       <div className="pl-2 lg:pl-4">
-        <h2 className="text-lg lg:text-4xl hidden sm:block">
+        <h2 className="text-lg lg:text-4xl hidden sm:block font-bold text-[#00df9a]">
           <a href="/">Kemboi</a>
         </h2>
       </div>
@@ -57,7 +57,7 @@ export const Navbar = () => {
         <h2 className="w-full text-3xl font-bold text-[#00df9a] m-4">
           <a href="/">Kemboi</a>
         </h2>
-        <div className="flex flex-col h-full text-lg font-bold text-[#00df9a]">
+        <div className="flex flex-col h-full text-lg font-bold">
           <a href="/" className="p-4 border-b border-gray-600">Home</a>
           <a href="/about" className="p-4 border-b border-gray-600">Education</a>
           <a href="/services" className="p-4 border-b border-gray-600">Experience</a>
