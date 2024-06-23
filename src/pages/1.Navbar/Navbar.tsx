@@ -40,19 +40,20 @@ export const Navbar = () => {
         <a href="#contact" className="p-2 lg:p-4">Contact</a>
       </div>
 
-      {/* humbuger menu */}
+      {/* Hamburger menu */}
       <div
         onClick={handleNav}
-        className="block md:hidden fixed right-0 top-0 p-4 cursor-pointer"
+        className="block md:hidden fixed right-0 top-0 p-4 cursor-pointer z-50"
       >
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
       </div>
 
       {/* For small screens */}
       <div
-        className={nav ? "fixed left-0 top-0 w-[60%] h-screen border-r border-gray-900 bg-[#000300] ease-in-out duration-500"
-          : "ease-in-out duration-500 fixed left-[-100%]"}>
-
+        className={`fixed left-0 top-0 w-[60%] h-screen border-r border-gray-900 bg-[#000300] ease-in-out duration-500 z-40 ${
+          nav ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
         <h2 className="w-full text-3xl font-bold text-[#00df9a] m-4">
           <a href="/">Kemboi</a>
         </h2>
