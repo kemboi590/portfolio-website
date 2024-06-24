@@ -1,16 +1,23 @@
 
-import AzureAIEngineerAssociate from '../assets/images/Azure-AI-Engineer-Associate-LOGO.png'
-import AzureFundamentals from '../assets/images/Azure-Fundamentals-Logo.png'
-import AzureAIFundamentals from '../assets/images/Azure-AI-Fundamentals-Logo.png'
-import CSharp from '../assets/images/C-sharp-Microsoft-Logo.jpeg'
-import SERNStack from '../assets/images/SERN-Stack-Developer-Logo.png'
-import MSAStudentTrainer from '../assets/images/MLSA-Trainer-Logo.png'
-import MSAStudentMentor from '../assets/images/MLSA-Mentor.png'
-import MSAStudentMentee from '../assets/images/MLSA-mentee-Logo.png'
-import AzureDBMySQLEmerald from '../assets/images/mySQL-Emerald-Logo.png'
-import AzureDBMySQLGold from '../assets/images/mySQL-Gold-Logo.png'
+import AzureAIEngineerAssociate from '../assets/images/certifications/Azure-AI-Engineer-Associate-LOGO.png'
+import AzureFundamentals from '../assets/images/certifications/Azure-Fundamentals-Logo.png'
+import AzureAIFundamentals from '../assets/images/certifications/Azure-AI-Fundamentals-Logo.png'
+import CSharp from '../assets/images/certifications/C-sharp-Microsoft-Logo.jpeg'
+import SERNStack from '../assets/images/certifications/SERN-Stack-Developer-Logo.png'
+import MSAStudentTrainer from '../assets/images/certifications/MLSA-Trainer-Logo.png'
+import MSAStudentMentor from '../assets/images/certifications/MLSA-Mentor.png'
+import MSAStudentMentee from '../assets/images/certifications/MLSA-mentee-Logo.png'
+import AzureDBMySQLEmerald from '../assets/images/certifications/mySQL-Emerald-Logo.png'
+import AzureDBMySQLGold from '../assets/images/certifications/mySQL-Gold-Logo.png'
 
-export const CertificationData = [
+interface TypeCertification {
+    id: number;
+    certLogo: string;
+    certTitle: string;
+    certLink: string;
+}
+
+export const CertificationData: TypeCertification[] = [
     {
         id: 1,
         certLogo: AzureAIEngineerAssociate,

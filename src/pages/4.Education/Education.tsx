@@ -7,7 +7,7 @@ export const Education = () => {
             <h1 className="text-4xl font-bold text-[#00df9a] text-center">📚Education 👨🏻‍🎓</h1>
 
             <div className="flex flex-col md:flex-row justify-center items-center h-fit gap-4 md:gap-8 xl:gap-30 md:pt-[3.5rem] pb-8 text-text-light relative">
-                <div className="bg-slate-700 rounded-lg p-4 mt-4 w-full md:w-[40%] cursor-pointer transform transition duration-300 hover:-translate-y-3 ">
+                <div className="bg-gray-800 rounded-lg p-4 mt-4 w-full md:w-[40%] cursor-pointer transform transition duration-300 hover:-translate-y-3 ">
                     <div className="flex flex-col justify-center items-center">
                         <img src={kyuLogo} alt="Laboret Logo" className="w-20 h-20 rounded-lg" />
                     </div>
@@ -19,7 +19,7 @@ export const Education = () => {
                     </div>
                 </div>
 
-                <div className="bg-slate-700 rounded-lg p-4 mt-4 w-full md:w-[40%] cursor-pointer transform transition duration-300 hover:-translate-y-3">
+                <div className="bg-gray-800 rounded-lg p-4 mt-4 w-full md:w-[40%] cursor-pointer transform transition duration-300 hover:-translate-y-3">
                     <div className="flex flex-col justify-center items-center">
                         <img src={LaboretLogo} alt="Laboret Logo" className="w-20 h-20 rounded-lg" />
                     </div>

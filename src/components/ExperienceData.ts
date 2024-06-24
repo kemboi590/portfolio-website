@@ -1,9 +1,9 @@
-import MicrosoftTechCommunityLogo from '../assets/images/mlsaLogo.jpeg'
-import teach2GiveLogo from '../assets/images/teach2GiveLogo.jpeg'
-import theJituLogo from '../assets/images/thejituLogo.jpeg' 
-import MLSALogo from '../assets/images/mlsaLogo.jpeg'
-import MentalEaseLogo from '../assets/images/mentalEaseLogo.jpeg'
-import CSKLogo from '../assets/images/cskLogo.jpeg' 
+import MicrosoftTechCommunityLogo from '../assets/images/experience/mlsaLogo.jpeg'
+import teach2GiveLogo from '../assets/images/experience/teach2GiveLogo.jpeg'
+import theJituLogo from '../assets/images/experience/thejituLogo.jpeg'
+import MLSALogo from '../assets/images/experience/mlsaLogo.jpeg'
+import MentalEaseLogo from '../assets/images/experience/mentalEaseLogo.jpeg'
+import CSKLogo from '../assets/images/experience/cskLogo.jpeg'
 
 interface TypeExpereinceData {
     id: number;
