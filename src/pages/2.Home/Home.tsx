@@ -23,7 +23,7 @@ export const Home = () => {
                             </span>
                         </h1>
 
-                        <p className="text-xl w-full md:w-[1/2] leading-relaxed text-justify">
+                        <p className="text-xl xl:text-2xl w-full md:w-[1/2] leading-relaxed text-justify">
                             Full-stack web developer with strong foundation in Azure cloud. As a dedicated community leader, I strive to foster collaboration and innovation within the tech community.
                         </p>
 
