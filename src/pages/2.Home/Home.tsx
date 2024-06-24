@@ -23,8 +23,8 @@ export const Home = () => {
                             </span>
                         </h1>
 
-                        <p className="text-xl xl:text-2xl w-full md:w-[1/2] leading-relaxed text-justify">
-                            Full-stack web developer with strong foundation in Azure cloud. As a dedicated community leader, I strive to foster collaboration and innovation within the tech community.
+                        <p className="text-xl leading-7 w-full md:w-[1/2] text-justify">
+                            A Full-stack web developer with strong foundation in Azure cloud. As a dedicated community leader, I strive to foster collaboration and innovation within the tech community.
                         </p>
 
                         <a href={Resume} download className="mt-4 bg-[#00df9a] p-3 rounded-lg hover:bg-[#00b48a] transition duration-500 ease-in-out flex items-center space-x-2 w-[230px] text-lg md:text-xl">
