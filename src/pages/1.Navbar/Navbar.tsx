@@ -33,7 +33,7 @@ export const Navbar = () => {
       </div>
       <div className="text-lg lg:font-bold sm:font-medium hidden md:block">
         <a href="#home" className="p-2 lg:p-4">Home</a>
-        <a href="#about" className="p-2 lg:p-4">Education</a>
+        <a href="#education" className="p-2 lg:p-4">Education</a>
         <a href="#services" className="p-2 lg:p-4">Experience</a>
         <a href="#projects" className="p-2 lg:p-4">Projects</a>
         <a href="#community" className="p-2 lg:p-4">Community</a>
