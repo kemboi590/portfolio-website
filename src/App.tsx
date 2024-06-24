@@ -4,6 +4,7 @@ import { Navbar } from './pages/1.Navbar/Navbar'
 import { Home } from './pages/2.Home/Home'
 import { Education } from './pages/4.Education/Education'
 import { Experience } from './pages/5.Experience/Experience'
+import { LicenseCert } from './pages/6.LicenseCert/LicenseCert'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Education />
       <Experience />
+     <LicenseCert/>
     </div>
   )
 }
