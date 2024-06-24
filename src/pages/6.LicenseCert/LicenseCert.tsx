@@ -1,7 +1,32 @@
-
+import { CertificationData } from "../../components/CertificationData";
 
 export const LicenseCert = () => {
   return (
-    <div>LicenseCert</div>
-  )
-}
+    <>
+      <h1 className='text-4xl font-bold text-[#00df9a] text-center'>Licenses & Certifications</h1>
+      <div className='flex flex-col md:flex-row p-5 md:flex-wrap justify-center items-center h-fit gap-4 md:gap-12 md:pt-24 pb-10 text-text-light '>
+        {CertificationData.map((certification) => {
+          //  gap-4 rounded-lg
+          return (
+            <div key={certification.id} className='flex flex-col justify-center items-center pt-8 bg-gray-800 w-full md:w-[25%] gap-5 cursor-pointer transform transition duration-300 hover:-translate-y-1 rounded-lg mx-2'>
+              <div className="w-[30%] flex justify-center items-center" >
+                <img src={certification.certLogo} alt={certification.certTitle} className='rounded-lg' />
+              </div>
+              <div className='text-xl leading-8 p-4'>
+                <h3 className='flex items-center justify-center mb-8 '>
+                  <b>{certification.certTitle}</b>
+                </h3>
+
+                <a href={certification.certLink} target="_blank" rel="noopener noreferrer" className='block mx-auto rounded-lg p-2 hover:bg-[#00df9a] hover:text-black transition duration-300 ' style={{ width: 'fit-content', border: '1px solid grey'}}>
+                  View Certification
+                </a>
+
+
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </>
+  );
+};
