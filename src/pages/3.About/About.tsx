@@ -4,7 +4,7 @@ const About = () => {
         //  the default color of a link in taiwind is 
         <section className="flex flex-col  h-fit  pb-8 px-4 md:px-8">
             <h1 className="text-4xl font-bold text-[#00df9a] ">About Me</h1>
-            <p className="text-lg xl:text-2xl text-text-light text-justify w-full md:w-3/4 ">
+            <p className="text-lg  leading-7  text-text-light text-justify w-full md:w-3/4 ">
                 I'm a software engineering student at <a href="https://www.kyu.ac.ke/"  target="_blank" className="text-[#00df9a] ">Kirinyaga University</a> in Kenya.
                 Passionate about technology and software development, expertise in React, Node, PostgresSQL,Microsoft SQL Server C# .NET, Typecript and Azure Cloud.
                 I'm a technical writer at <a href="https://techcommunity.microsoft.com/t5/user/viewprofilepage/user-id/1847250"  target="_blank" className="text-[#00df9a]">Microsoft Tech Community</a>,
