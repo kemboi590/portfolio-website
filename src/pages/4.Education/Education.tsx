@@ -3,7 +3,7 @@ import LaboretLogo from '../../assets/images/laboret_logo.jpeg'
 
 export const Education = () => {
     return (
-        <section id='education' className="flex flex-col h-fit pb-8 px-4 md:px-8 text-text-light">
+        <section id="education" className="flex flex-col h-fit pb-8 px-4 md:px-8 text-text-light">
             <h1 className="text-4xl font-bold text-[#00df9a] text-center">📚Education 👨🏻‍🎓</h1>
 
 

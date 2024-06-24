@@ -56,12 +56,12 @@ export const Navbar = () => {
           <a href="/">Kemboi</a>
         </h2>
         <div className="flex flex-col h-full text-lg font-bold">
-          <a href="/" className="p-4 border-b border-gray-600">Home</a>
-          <a href="/about" className="p-4 border-b border-gray-600">Education</a>
-          <a href="/services" className="p-4 border-b border-gray-600">Experience</a>
-          <a href="/projects" className="p-4 border-b border-gray-600">Projects</a>
-          <a href="/community" className="p-4 border-b border-gray-600">Community</a>
-          <a href="/contact" className="p-4 border-b border-gray-600">Contact</a>
+          <a href="#" className="p-4 border-b border-gray-600">Home</a>
+          <a href="#education" className="p-4 border-b border-gray-600">Education</a>
+          <a href="#services" className="p-4 border-b border-gray-600">Experience</a>
+          <a href="#projects" className="p-4 border-b border-gray-600">Projects</a>
+          <a href="#community" className="p-4 border-b border-gray-600">Community</a>
+          <a href="#contact" className="p-4 border-b border-gray-600">Contact</a>
         </div>
       </div>
     </div>
