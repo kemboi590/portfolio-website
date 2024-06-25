@@ -3,7 +3,7 @@ import { ExperienceData } from "../../components/ExperienceData"
 export const Experience = () => {
     return (
         <div id="experience">
-            <h1 className='text-4xl font-bold text-[#00df9a] text-center'>  Experience</h1>
+            <h1 className='text-xl md:text-4xl font-bold text-[#00df9a] text-center'>  Experience</h1>
             <div className='flex flex-col p-5 md:flex-wrap md:flex-row justify-center items-center h-fit gap-4 md:gap-8 xl:gap-10 md:pt-[3.5rem] pb-8 text-text-light'>
                 {ExperienceData.map((experience) => {
                     return (

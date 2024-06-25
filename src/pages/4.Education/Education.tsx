@@ -4,7 +4,7 @@ import LaboretLogo from '../../assets/images/laboret_logo.jpeg'
 export const Education = () => {
     return (
         <section id="education" className="flex flex-col h-fit pb-8 px-4 md:px-8 text-text-light">
-            <h1 className="text-4xl font-bold text-[#00df9a] text-center">📚Education 👨🏻‍🎓</h1>
+            <h1 className="text-xl md:text-4xl font-bold text-[#00df9a] text-center">📚Education 👨🏻‍🎓</h1>
 
             <div className="flex flex-col md:flex-row justify-center items-center h-fit gap-4 md:gap-8 xl:gap-30 md:pt-[3.5rem] pb-8 text-text-light relative">
                 <div className="bg-gray-800 rounded-lg p-4 mt-4 w-full md:w-[40%] cursor-pointer transform transition duration-300 hover:-translate-y-3 ">

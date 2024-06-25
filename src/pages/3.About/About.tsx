@@ -2,7 +2,7 @@
 const About = () => {
     return (
         <section className="flex flex-col  h-fit  pb-8 px-4 md:px-8">
-            <h1 className="text-4xl font-bold text-[#00df9a] pb-4 ">About Me</h1>
+            <h1 className="text-xl md:text-4xl font-bold text-[#00df9a] pb-4 ">About Me</h1>
             <p className="text-lg 2xl:text-xl leading-7  text-text-light text-justify w-full md:w-3/4 h-fit">
                 I'm a software engineering student at <a href="https://www.kyu.ac.ke/" target="_blank" className="text-[#00df9a] ">Kirinyaga University</a> in Kenya.
                 Passionate about technology and software development, expertise in React, Node, PostgresSQL,Microsoft SQL Server C# .NET, Typecript and Azure Cloud.

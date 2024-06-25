@@ -3,7 +3,7 @@ import { TechnologiesData } from "../../components/TechnologiesData";
 export const Technologies = () => {
   return (
     <>
-      <h1 className='text-4xl font-bold text-[#00df9a] text-center pt-8 pb-12'> 🖥 Technologies 💡</h1>
+      <h1 className='text-xl md:text-4xl font-bold text-[#00df9a] text-center pt-8 pb-12'> 🖥 Technologies 💡</h1>
       <div className='flex flex-wrap justify-center items-center p-5 gap-4 md:gap-8'>
         {TechnologiesData.map((tech) => (
           <div key={tech.id} className='relative group w-[45%] border-2 bg-white  md:w-[15%] p-4 rounded-lg cursor-pointer transform transition duration-300 hover:-translate-y-1'>

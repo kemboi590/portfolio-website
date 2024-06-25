@@ -3,7 +3,7 @@ import { CertificationData } from "../../components/CertificationData";
 export const LicenseCert = () => {
   return (
     <>
-      <h1 className='text-4xl font-bold text-[#00df9a] text-center'> 🥇 Licenses & Certifications 🏆</h1>
+      <h1 className='text-xl md:text-4xl font-bold text-[#00df9a] text-center'> 🥇 Licenses & Certifications 🏆</h1>
       <div className='flex flex-col md:flex-row p-5 md:flex-wrap justify-center items-center h-fit gap-4 md:gap-12 md:pt-24 pb-10 text-text-light '>
         {CertificationData.map((certification) => {
           return (
