@@ -34,7 +34,7 @@ export const Navbar = () => {
       <div className="text-lg lg:font-bold sm:font-medium hidden md:block">
         <a href="#home" className="p-2 lg:p-4">Home</a>
         <a href="#education" className="p-2 lg:p-4">Education</a>
-        <a href="#services" className="p-2 lg:p-4">Experience</a>
+        <a href="#experience" className="p-2 lg:p-4">Experience</a>
         <a href="#projects" className="p-2 lg:p-4">Projects</a>
         <a href="#community" className="p-2 lg:p-4">Community</a>
         <a href="#contact" className="p-2 lg:p-4">Contact</a>
@@ -58,7 +58,7 @@ export const Navbar = () => {
         <div className="flex flex-col h-full text-lg font-bold">
           <a href="#" className="p-4 border-b border-gray-600">Home</a>
           <a href="#education" className="p-4 border-b border-gray-600">Education</a>
-          <a href="#services" className="p-4 border-b border-gray-600">Experience</a>
+          <a href="#experience" className="p-4 border-b border-gray-600">Experience</a>
           <a href="#projects" className="p-4 border-b border-gray-600">Projects</a>
           <a href="#community" className="p-4 border-b border-gray-600">Community</a>
           <a href="#contact" className="p-4 border-b border-gray-600">Contact</a>
