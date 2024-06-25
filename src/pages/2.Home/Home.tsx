@@ -23,7 +23,7 @@ export const Home = () => {
                             </span>
                         </h1>
 
-                        <p className="text-xl 2xl:2xl leading-7 w-full md:w-[1/2] text-justify whitespace-normal">
+                        <p className="text-xl 2xl:2xl leading-7 w-full md:w-[1/2] text-justify h-fit">
                             A Full-stack web developer with strong foundation in Azure cloud. As a dedicated community leader, I strive to foster collaboration and innovation within the tech community.
                         </p>
 
