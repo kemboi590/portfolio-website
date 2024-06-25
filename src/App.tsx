@@ -11,7 +11,7 @@ import Projects from './pages/8.Projects/Projects'
 function App() {
 
   return (
-    <div className='bg-dark' >
+    <div className='bg-dark overflow-x-hidden' >
       <Navbar />
       <Home />
       <Education />
