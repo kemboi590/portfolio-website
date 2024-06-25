@@ -1,28 +1,34 @@
-import { useState, useEffect } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { useState, useEffect } from 'react';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
 
-  const handleNav = () => {
+  const handleNav = (event: any) => {
+    event.stopPropagation(); // Prevent triggering the document's click listener
     setNav(!nav);
   };
 
-  // Effect to handle screen size changes
   useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth >= 768) {
+    const closeMenu = () => {
+      if (nav) {
         setNav(false);
       }
     };
 
-    window.addEventListener('resize', handleResize);
+    // Add click listener to the document
+    document.addEventListener('click', closeMenu);
 
-    // Cleanup event listener on component unmount
+    // Prevent menu clicks from closing the menu
+    const menu = document.querySelector('.menu');
+    menu?.addEventListener('click', (event) => event.stopPropagation());
+
+    // Cleanup event listeners on component unmount
     return () => {
-      window.removeEventListener('resize', handleResize);
+      document.removeEventListener('click', closeMenu);
+      menu?.removeEventListener('click', (event) => event.stopPropagation());
     };
-  }, []);
+  }, [nav]); // Dependency on nav to ensure the effect runs when nav changes
 
   return (
     <div className="flex justify-evenly lg:justify-around items-center h-16 shadow-sm text-text-light">
@@ -41,16 +47,14 @@ export const Navbar = () => {
       </div>
 
       {/* Hamburger menu */}
-      <div onClick={handleNav} className="block md:hidden absolute right-0 top-0 p-4 cursor-pointer z-50" >
+      <div onClick={handleNav} className="block md:hidden absolute right-0 top-0 p-4 cursor-pointer z-50">
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
       </div>
 
       {/* For small screens */}
       <div
-        className={`fixed left-0 top-0 w-[60%] h-screen border-r border-gray-900 bg-[#000300] ease-in-out duration-500 z-40 ${
-          nav ? "translate-x-0" : "-translate-x-full"
-        }`}
-        
+        className={`menu fixed left-0 top-0 w-[60%] h-screen border-r border-gray-900 bg-[#000300] ease-in-out duration-500 z-40 ${nav ? "translate-x-0" : "-translate-x-full"
+          }`}
       >
         <h2 className="w-full text-3xl font-bold text-[#00df9a] m-4">
           <a href="/">Kemboi</a>
@@ -67,3 +71,4 @@ export const Navbar = () => {
     </div>
   );
 };
+

@@ -3,7 +3,7 @@ import { projectsData } from "../../components/ProjectsData";
 
 const Projects = () => {
     return (
-        <>
+        <div id="projects">
             <h1 className='text-xl md:text-4xl font-bold text-[#00df9a] text-center pt-12'> ✨ Featured Projects ✨ </h1>
             <div className='flex flex-col md:flex-row p-5 md:flex-wrap justify-center items-center h-fit gap-4 md:gap-8 md:pt-14 pb-10 text-text-light '>
                 {projectsData.map((project) => (
@@ -33,7 +33,7 @@ const Projects = () => {
                     </div>
                 ))}
             </div>
-        </>
+        </div>
     );
 };
 
