@@ -6,6 +6,7 @@ import { Education } from './pages/4.Education/Education'
 import { Experience } from './pages/5.Experience/Experience'
 import { LicenseCert } from './pages/6.LicenseCert/LicenseCert'
 import { Technologies } from './pages/7.Technologies/Technologies'
+import Projects from './pages/8.Projects/Projects'
 
 function App() {
 
@@ -15,8 +16,9 @@ function App() {
       <Home />
       <Education />
       <Experience />
-     <LicenseCert/>
-     <Technologies/>
+      <LicenseCert />
+      <Technologies />
+      <Projects />
     </div>
   )
 }
