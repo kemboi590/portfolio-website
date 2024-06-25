@@ -21,10 +21,10 @@ const Projects = () => {
                                 ))}
                             </div>
                             <div className='flex justify-around'>
-                                <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className='block  rounded-lg p-2 text-base bg-[#00df9893] hover:text-black transition duration-300 ' >
+                                <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className='block  rounded-lg p-2 text-base bg-[#00df9893] hover:bg-white hover:text-black transition duration-300 ' >
                                     Live Link
                                 </a>
-                                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className='block rounded-lg p-2 text-base  hover:bg-[#00df9893] hover:text-black transition duration-300 ' style={{ width: 'fit-content', border: '1px solid grey' }}>
+                                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className='block rounded-lg p-2 text-base  hover:border-[#00df9893] transition duration-300 ' style={{ width: 'fit-content', border: '1px solid grey ' }}>
                                     GitHub
                                 </a>
                             </div>

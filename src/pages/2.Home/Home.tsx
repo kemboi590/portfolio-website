@@ -34,7 +34,7 @@ export const Home = () => {
                     </div>
                 </div>
                 <div className="w-full md:w-1/2 flex justify-center items-center z-20">
-                    <img src={Potrait} alt="Kemboi" className="w-60 h-60 rounded-lg transform transition duration-500 hover:scale-110" />
+                    <img src={Potrait} alt="Kemboi" className="w-64 h-70 rounded-lg transform transition duration-500 hover:scale-110" />
                 </div>
             </section>
             <About />
