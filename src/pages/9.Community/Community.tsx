@@ -16,7 +16,7 @@ const Community = () => {
     stopAutoScroll();
     intervalRef.current = setInterval(() => {
       setCurrentIndex(prevIndex => (prevIndex + 1) % communityPhotosData.length);
-    }, 5000);
+    }, 4000);
   };
 
   const stopAutoScroll = () => {
@@ -36,7 +36,7 @@ const Community = () => {
   };
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="w-full">
       <h1 className='text-xl md:text-4xl font-bold text-[#00df9a] text-center pt-12'>✨ Community Photos ✨</h1>
       <div className="flex items-center justify-center space-x-4 py-8">
         <button
@@ -45,7 +45,8 @@ const Community = () => {
         >
           <FaArrowLeft />
         </button>
-        <div className="flex overflow-hidden w-full max-w-screen-lg">
+
+        <div className="flex overflow-hidden w-full max-w-screen-lg justify-center">
           <div
             className="flex transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -57,13 +58,15 @@ const Community = () => {
                 <img
                   src={photo.image}
                   alt={photo.alt}
-                  className="w-full h-[300px] object-scale-down md:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]"
+                  className="w-full h-[250px] object-scale-down md:h-[400px] lg:h-[500px]"
                 />
-                <p className="text-center text-white mt-2">{photo.caption}</p>
+                <p className=" hidden md:block text-center text-white mt-2 max-w-[90%] mx-auto">{photo.caption}</p> {/* to hide in small screen, add hidden class ie hidden text-center text-white mt-2 max-w-[90%] mx-auto
+                 */}
               </div>
             ))}
           </div>
         </div>
+
         <button
           onClick={handleNext}
           className="p-2 text-white bg-gray-800 rounded-full hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500"
