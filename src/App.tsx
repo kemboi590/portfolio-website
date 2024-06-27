@@ -7,6 +7,7 @@ import { Experience } from './pages/5.Experience/Experience'
 import { LicenseCert } from './pages/6.LicenseCert/LicenseCert'
 import { Technologies } from './pages/7.Technologies/Technologies'
 import Projects from './pages/8.Projects/Projects'
+import Community from './pages/9.Community/Community'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <LicenseCert />
       <Technologies />
       <Projects />
+      <Community/>
     </div>
   )
 }
