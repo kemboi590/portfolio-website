@@ -11,7 +11,7 @@ export const Home = () => {
             <section id="home" className="flex flex-col md:flex-row justify-center items-center h-fit  md:pt-[3.5rem] pb-8 text-text-light relative" >
                 <div className="w-full md:w-1/2 flex justify-center items-center z-30">
                     <div className="px-4 md:px-8 pb-8">
-                        <h1 className="text-xl md:text-2xl font-bold">Hi, I'm
+                        <h1 className="text-2xl font-bold">Hi, I'm
                             {/* React Type */}
                             <span className='text-[#00df9a]'>
                                 <ReactTyped
@@ -23,7 +23,7 @@ export const Home = () => {
                             </span>
                         </h1>
 
-                        <p className="text-xl 2xl:2xl leading-7 w-full md:w-[1/2]  h-fit">
+                        <p className="text-xl 2xl:2xl leading-8 w-full md:w-[1/2]  h-fit">
                             A Full-stack web developer with strong foundations in Azure cloud. As a dedicated community leader, 
                             I strive to foster collaboration and innovation within the tech community.
                         </p>
