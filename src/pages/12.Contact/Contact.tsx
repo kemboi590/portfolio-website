@@ -12,6 +12,8 @@ export const Contact = () => {
     message: ''
   });
 
+  const [loading, setLoading] = useState(false);
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -19,6 +21,7 @@ export const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    setLoading(true);
 
     emailjs.send(
       'service_0uncijm',
@@ -38,6 +41,7 @@ export const Contact = () => {
           theme: "colored",
           transition: Bounce,
         });
+        setLoading(false);
         setFormData({ name: '', email: '', subject: '', message: '' });
       }, (error) => {
         console.error('Error sending email:', error.text);
@@ -51,6 +55,7 @@ export const Contact = () => {
           theme: "colored",
           transition: Bounce,
         });
+        setLoading(false);
       });
   };
 
@@ -120,8 +125,9 @@ export const Contact = () => {
             <button
               type='submit'
               className='p-2 bg-[#00df9a] text-black rounded-lg hover:bg-white hover:text-black transition duration-300 w-[25%]'
+              disabled={loading}
             >
-              Send Message
+              {loading ? 'Sending...' : 'Send Message'}
             </button>
           </form>
         </div>

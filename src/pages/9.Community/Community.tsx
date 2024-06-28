@@ -36,7 +36,7 @@ const Community = () => {
   };
 
   return (
-    <div className="w-full">
+    <div id='community' className="w-full">
       <h1 className='text-xl md:text-4xl font-bold text-[#00df9a] text-center pt-12'>✨ Community Photos ✨</h1>
       <div className="flex items-center justify-center space-x-4 py-8">
         <button
