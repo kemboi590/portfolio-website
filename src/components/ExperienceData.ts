@@ -18,20 +18,20 @@ export const ExperienceData: TypeExpereinceData[] = [
         id: 1,
         logo: MicrosoftTechCommunityLogo,
         title: 'Technical Educator at Microsoft Tech Community',
-        description: 'I write blogs on the Microsoft Tech Community platform. I have written blogs on Azure AI, Azure Cloud, Web Development which has has impacted my community in tech positively.',
+        description: 'I write blogs on Microsoft Tech Community platform. I have written blogs on Azure AI, Azure Cloud, Web Development which has has impacted my community in tech positively.',
         period: 'May 2024 - Present'
     },
     {
         id: 2,
         logo: teach2GiveLogo,
-        title: 'Software Developemr Trainee at Teach2Give',
+        title: 'Software Development Trainee at Teach2Give',
         description: "I'm currently attending a software training internship. I'm learning how to develop full stack applications using React, Node, Hono and PostgresSQL with Typescript and Azure cloud.",
         period: 'May 2024 - August 2024'
     },
     {
         id: 3,
         logo: theJituLogo,
-        title: ' Software Developer Trainee at The Jitu',
+        title: ' Software Development Trainee at The Jitu',
         description: 'I attended a software training internship between May 2023 - August 2023. I learned how to develop full stack applications using React, Node.js, Express and Microsoft SQL Server and Azure Cloud.',
         period: 'May 2023 - August 2023'
     },

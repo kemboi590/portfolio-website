@@ -13,7 +13,7 @@ export const Experience = () => {
                                 <img src={experience.logo} alt={experience.title} className='w-12 rounded-lg' />
                             </div>
                             <div className='w-[90%]'>
-                                <h5 className='text-[#00df9a] flex flex-col md:flex-row justify-between'><b>{experience.title}</b> <span className="text-text-light text-sm">{experience.period}</span></h5>
+                                <h5 className='text-[#00df9a] flex flex-col md:flex-row justify-between'><b>{experience.title}</b> <span className="text-text-light text-sm md:text-xs">{experience.period}</span></h5>
                                 <p className='pt-2 leading-7 text-lg'>{experience.description}</p>
                             </div>
                         </div>

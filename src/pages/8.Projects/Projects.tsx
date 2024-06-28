@@ -9,15 +9,15 @@ const Projects = () => {
                 {projectsData.map((project) => (
                     <div key={project.id} className='flex flex-col justify-center items-center bg-gray-800 w-full md:w-[30%] h-[550px] md:h-[500px] gap-5 cursor-pointer transform transition duration-300 hover:-translate-y-1 rounded-lg '>
                         <div className="w-full flex justify-center items-center " >
-                            <img src={project.projectLogo} alt={project.projectName} className='rounded-lg w-full px-2 h-[100px] md:h-[150px] object-cover' />
+                            <img src={project.projectLogo} alt={project.projectName} className='rounded-lg w-full px-2 h-[100px] md:h-[150px] object-scale-down' />
                         </div>
                         <div className='text-xl leading-8 p-4'>
                             <h3 className='flex items-center justify-center mb-4 text-[#00df9a] '>
                                 <b>{project.projectName}</b>
                             </h3>
-                            <p className='text-justify mb-4 text-lg md:text-base'>{project.projectDescription}</p>
+                            <p className=' mb-4 text-lg md:text-base'>{project.projectDescription}</p>
                             <div className='flex flex-wrap justify-evenly items-center mb-4'>
-                                {project.projectTechnologies.map((tech, index) => (
+                                {project.projectTechnologies.map((tech: string, index) => (
                                     <span key={index} className='px-2 m-2 bg-[#00df9a] text-black rounded-lg text-sm'>{tech}</span>
                                 ))}
                             </div>

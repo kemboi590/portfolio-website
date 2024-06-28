@@ -19,7 +19,7 @@ const Footer = () => {
             <FaLinkedin size={30} />
           </a>
           <a
-            href="https://mlsa.microsoft.com"
+            href="https://github.com/kemboi590"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-[#f25022]"

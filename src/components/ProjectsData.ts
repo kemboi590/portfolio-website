@@ -20,7 +20,7 @@ export const projectsData: TypeProjectsData[] = [
         id: 1,
         projectLogo: TaskMinderLogo,
         projectName: "TaskMinder",
-        projectDescription: "A task management application that allows users to create, update, delete and view tasks. It makes use of nodemailer to send emails to users when they create a task.",
+        projectDescription: "A task management application that allows users to create, update, delete and view tasks. It makes use of nodemailer to send email notification when a task is created.",
         projectTechnologies: ["React.js", "Node.js", "Express", "Mssql", "Nodemailer", "Azure"],
         liveLink: "https://yellow-dune-0686bdb0f.3.azurestaticapps.net/",
         githubLink: "https://github.com/kemboi590/TaskMinder-Client"
@@ -30,7 +30,7 @@ export const projectsData: TypeProjectsData[] = [
         id: 2,
         projectLogo: ReadwiseLogo,
         projectName: "ReadWiseBloging Platform",
-        projectDescription: "The ReadWise Blogging Website is a platform dedicated to promoting knowledge sharing and personal growth through engaging written content. 📚 This was my first fullstack project.",
+        projectDescription: "A blogging website dedicated to promoting knowledge sharing and personal growth through engaging in written content. This was my first fullstack project.",
         projectTechnologies: ["React.js", "Node.js", "Express", "Mssql", "Azure"],
         liveLink: "https://proud-rock-05ce23a0f.3.azurestaticapps.net/",
         githubLink: "https://github.com/kemboi590/ReadWise-Client-Deployment"
@@ -40,7 +40,7 @@ export const projectsData: TypeProjectsData[] = [
         id: 3,
         projectLogo: RestaurantApiLogo,
         projectName: "Restaurant API",
-        projectDescription: "The restaurants API is designed to provide developers with a simple and efficient way to access our database of restaurant information. The API is RESTful and returns data in JSON format.",
+        projectDescription: "The restaurant API uses the cutting edge technologies to develop a scalable application. The API is RESTful and returns data in JSON format.",
         projectTechnologies: ["Node.js", "Hono.js", "Posthres", "Drizzle", "Azure"],
         liveLink: "https://my-restaurant-api.azurewebsites.net",
         githubLink: "https://github.com/kemboi590/Restaurant-API"
