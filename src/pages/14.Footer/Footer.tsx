@@ -1,4 +1,4 @@
-import { FaLinkedin, FaFacebook, FaTwitter, FaMicrosoft } from 'react-icons/fa';
+import { FaLinkedin, FaFacebook, FaTwitter, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
         <div className="flex space-x-4 mt-4 md:mt-0">
           <a
-            href="https://www.linkedin.com/in/your-linkedin"
+            href="https://www.linkedin.com/in/kibichii-brian"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-[#0e76a8]"
@@ -19,7 +19,16 @@ const Footer = () => {
             <FaLinkedin size={30} />
           </a>
           <a
-            href="https://www.facebook.com/your-facebook"
+            href="https://mlsa.microsoft.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-[#f25022]"
+            aria-label="MLSA"
+          >
+            <FaGithub size={30} />
+          </a>
+          <a
+            href="https://facebook.com/kibichii.brian/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-[#1877f2]"
@@ -28,7 +37,7 @@ const Footer = () => {
             <FaFacebook size={30} />
           </a>
           <a
-            href="https://twitter.com/your-twitter"
+            href="https://twitter.com/kibichii_brian"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-[#1da1f2]"
@@ -36,15 +45,7 @@ const Footer = () => {
           >
             <FaTwitter size={30} />
           </a>
-          <a
-            href="https://mlsa.microsoft.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-[#f25022]"
-            aria-label="MLSA"
-          >
-            <FaMicrosoft size={30} />
-          </a>
+
         </div>
       </div>
       <div className="text-center mt-4 text-sm text-gray-400">

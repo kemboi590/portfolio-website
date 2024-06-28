@@ -60,7 +60,7 @@ export const Contact = () => {
   };
 
   return (
-    <>
+    <div id='contact'>
       <h1 className='text-xl md:text-4xl font-bold text-[#00df9a] text-center pt-10 pb-10'>📧 Contact Me 📲 </h1>
 
       <div className='flex flex-col md:flex-row p-5 justify-center items-center h-fit gap-4 md:gap-8 pb-10 text-text-light'>
@@ -124,7 +124,7 @@ export const Contact = () => {
             ></textarea>
             <button
               type='submit'
-              className='p-2 bg-[#00df9a] text-black rounded-lg hover:bg-white hover:text-black transition duration-300 w-[25%]'
+              className='p-2 bg-[#00df9a] text-black rounded-lg hover:bg-white hover:text-black transition duration-300 md:w-[25%]'
               disabled={loading}
             >
               {loading ? 'Sending...' : 'Send Message'}
@@ -146,7 +146,7 @@ export const Contact = () => {
         theme="colored"
         transition={Bounce}
       />
-    </>
+    </div>
   );
 };
 
