@@ -22,7 +22,7 @@ const Footer = () => {
             href="https://github.com/kemboi590"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white hover:text-[#f25022]"
+            className="text-white hover:text-[#1877f2]"
             aria-label="MLSA"
           >
             <FaGithub size={30} />
