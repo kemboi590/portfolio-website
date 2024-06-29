@@ -9,40 +9,16 @@ const Footer = () => {
           <p>Follow me on my social media platforms</p>
         </div>
         <div className="flex space-x-4 mt-4 md:mt-0">
-          <a
-            href="https://www.linkedin.com/in/kibichii-brian"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-[#0e76a8]"
-            aria-label="LinkedIn"
-          >
+          <a href="https://www.linkedin.com/in/kibichii-brian" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#0e76a8]" aria-label="LinkedIn">
             <FaLinkedin size={30} />
           </a>
-          <a
-            href="https://github.com/kemboi590"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-[#1877f2]"
-            aria-label="MLSA"
-          >
+          <a href="https://github.com/kemboi590" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#1877f2]" aria-label="MLSA">
             <FaGithub size={30} />
           </a>
-          <a
-            href="https://facebook.com/kibichii.brian/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-[#1877f2]"
-            aria-label="Facebook"
-          >
+          <a href="https://facebook.com/kibichii.brian/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#1877f2]" aria-label="Facebook">
             <FaFacebook size={30} />
           </a>
-          <a
-            href="https://twitter.com/kibichii_brian"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-[#1da1f2]"
-            aria-label="Twitter"
-          >
+          <a href="https://twitter.com/kibichii_brian" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#1da1f2]" aria-label="Twitter">
             <FaTwitter size={30} />
           </a>
 

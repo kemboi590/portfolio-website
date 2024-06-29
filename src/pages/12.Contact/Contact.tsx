@@ -5,12 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
+  const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' });
 
   const [loading, setLoading] = useState(false);
 
@@ -23,14 +18,8 @@ export const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.send(
-      'service_0uncijm',
-      'template_uk97u5c',
-      formData,
-      'r01DlyjDbhqKbSD1x'
-    )
-      .then((result) => {
-        console.log('Email successfully sent!', result.text);
+    emailjs.send('service_0uncijm','template_uk97u5c', formData,'r01DlyjDbhqKbSD1x')
+      .then(() => {
         toast.success('Message sent successfully!', {
           position: "bottom-right",
           autoClose: 5000,
@@ -40,11 +29,11 @@ export const Contact = () => {
           draggable: true,
           theme: "colored",
           transition: Bounce,
+          style: { width: '70%' }
         });
         setLoading(false);
         setFormData({ name: '', email: '', subject: '', message: '' });
-      }, (error) => {
-        console.error('Error sending email:', error.text);
+      }, () => {
         toast.error('Failed to send message. Please try again later.', {
           position: "bottom-right",
           autoClose: 5000,
@@ -54,6 +43,7 @@ export const Contact = () => {
           draggable: true,
           theme: "colored",
           transition: Bounce,
+          style: { width: '70%' }
         });
         setLoading(false);
       });
@@ -87,37 +77,21 @@ export const Contact = () => {
           <h2 className='text-xl md:text-2xl font-bold text-[#00df9a] text-center mb-5'>Reach Out!</h2>
           <form className='flex flex-col space-y-4' onSubmit={handleSubmit}>
             <input
-              type='text'
-              name='name'
-              value={formData.name}
-              onChange={handleChange}
-              placeholder='Full Name'
+              type='text' name='name' value={formData.name} onChange={handleChange} placeholder='Full Name'
               className='p-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-[#00df9a] md:w-[90%]'
               required
             />
             <input
-              type='email'
-              name='email'
-              value={formData.email}
-              onChange={handleChange}
-              placeholder='Email Address'
+              type='email' name='email' value={formData.email} onChange={handleChange} placeholder='Email Address'
               className='p-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-[#00df9a] md:w-[90%]'
               required
             />
             <input
-              type='text'
-              name='subject'
-              value={formData.subject}
-              onChange={handleChange}
-              placeholder='Subject'
+              type='text' name='subject' value={formData.subject} onChange={handleChange} placeholder='Subject'
               className='p-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-[#00df9a] md:w-[90%]'
               required
             />
-            <textarea
-              name='message'
-              value={formData.message}
-              onChange={handleChange}
-              placeholder='Message'
+            <textarea name='message' value={formData.message} onChange={handleChange} placeholder='Message'
               rows={4}
               className='p-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-[#00df9a] resize-none md:w-[90%]'
               required
