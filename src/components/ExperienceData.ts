@@ -1,6 +1,7 @@
 import MicrosoftTechCommunityLogo from '../assets/images/experience/mlsaLogo.jpeg'
 import teach2GiveLogo from '../assets/images/experience/teach2GiveLogo.jpeg'
-import theJituLogo from '../assets/images/experience/thejituLogo.jpeg'
+// import theJituLogo from '../assets/images/experience/thejituLogo.jpeg'
+import kyuLogo from '../assets/images/kyu_logo.png'
 import MLSALogo from '../assets/images/experience/mlsaLogo.jpeg'
 import MentalEaseLogo from '../assets/images/experience/mentalEaseLogo.jpeg'
 import CSKLogo from '../assets/images/experience/cskLogo.jpeg'
@@ -28,12 +29,19 @@ export const ExperienceData: TypeExpereinceData[] = [
         description: "I'm currently attending a software training internship. I'm learning how to develop full stack applications using React, Node, Hono and PostgresSQL with Typescript and Azure cloud.",
         period: 'May 2024 - August 2024'
     },
+    // {
+    //     id: 3,
+    //     logo: theJituLogo,
+    //     title: ' Software Development Trainee at The Jitu',
+    //     description: 'I attended a software training internship between May 2023 - August 2023. I learned how to develop full stack applications using React, Node.js, Express and Microsoft SQL Server and Azure Cloud.',
+    //     period: 'May 2023 - August 2023'
+    // },
     {
         id: 3,
-        logo: theJituLogo,
-        title: ' Software Development Trainee at The Jitu',
-        description: 'I attended a software training internship between May 2023 - August 2023. I learned how to develop full stack applications using React, Node.js, Express and Microsoft SQL Server and Azure Cloud.',
-        period: 'May 2023 - August 2023'
+        logo: kyuLogo,
+        title: 'Azure Cosmos DB Trainer',
+        description: 'Train students on Azure Cosmos DB as a part of the Microsoft Learn Student Ambassador program. Through articles and events, I have taught APIs like Cassandra, MongoDB, Postgres and Gremlin API.',
+        period: 'April 2024 - Present'
     },
     {
         id: 4,
