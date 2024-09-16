@@ -10,6 +10,12 @@ import meandKathuri from '../assets/images/communityPhotos/meandKathuri.jpg'
 import leadsGoldFlag from '../assets/images/communityPhotos/leadsGoldFlag.jpg'
 import newLeadsPhoto from '../assets/images/communityPhotos/newLeadsCSK.jpg'
 import meGoldFlag from '../assets/images/communityPhotos/meGoldFlag.jpg'
+import infosessionCommunity from '../assets/images/communityPhotos/infosessionCommunity.jpg'
+import makingPresentation from '../assets/images/communityPhotos/makingPresentation.jpg'
+import teach2GiveGroupPhoto from '../assets/images/communityPhotos/teach2GiveGroupPhoto.jpg'
+import certAwardTeach2Give from '../assets/images/communityPhotos/certAwardTeach2Give.jpg'
+import KirinyagaCohortTeach2Give from '../assets/images/communityPhotos/KirinyagaCohortTeach2Give.jpeg'
+import zetechCampusTour from '../assets/images/communityPhotos/zetechCampusTour.jpeg'
 
 type CommunityPhotos = {
     image: string;
@@ -72,5 +78,36 @@ export const communityPhotosData: CommunityPhotos[] = [
         image: meGoldFlag,
         alt: 'Me Gold Flag',
         caption: 'A celebratory Mood as I raise the Gold MLSA Scurf very excited to be part of the Community'
-    }
+    },
+    {
+        image: certAwardTeach2Give,
+        alt: 'Cert Award Teach2Give',
+        caption: 'Certificate of Appreciation from Sheila Chomba a Software Analyst after completing the Software Development Training.'
+    },
+    {
+        image: KirinyagaCohortTeach2Give,
+        alt: 'Kirinyaga Cohort Teach2Give',
+        caption: 'Group Photo dor Kirinyaga Univeristy Cohort after completing the Software Development Training at Teach2Give'
+    },
+    {
+        image: teach2GiveGroupPhoto,
+        alt: 'teach2GiveGroupPhoto',
+        caption: 'A group photo of graduating cohort at Teach2Give Office in Nyeri after software development training'
+
+    },
+    {
+        image: zetechCampusTour,
+        alt: 'Zetech Campus Tour',
+        caption: 'Group Photo at Zetech University after attending the Campus Tours hosted by Microsoft ADC Nairobi'
+    },
+    {
+        image: makingPresentation,
+        alt: 'Making Presentation',
+        caption: 'Making a Presentation in Computer Society of Kirinyaga to welcome new members and lounching of CSK Web application'
+    },
+    {
+        image: infosessionCommunity,
+        alt: 'Infosession Community',
+        caption: 'Group Photo after hosting an Information Session in Computer Society of Kirinyaga 2024'
+    },
 ]

@@ -24,8 +24,9 @@ export const Home = () => {
                         </h1>
 
                         <p className="text-xl 2xl:2xl leading-8 w-full md:w-[1/2]  h-fit">
-                            A Full-stack web developer with strong foundations in Azure cloud. As a dedicated community leader, 
-                            I strive to foster collaboration and innovation within the tech community.
+                            A Software Engineer passionate about developing software applications which solve real world problems while meeting users expectations.
+                            <br className="hidden md:block" />
+                            As a dedicated community leader,I strive to foster collaboration and innovation within the tech community.
                         </p>
 
                         <a href={Resume} download className="mt-4 bg-[#00df9a] p-3 rounded-lg hover:bg-[#00b48a] transition duration-500 ease-in-out flex items-center space-x-2 w-[230px] text-lg md:text-xl">
@@ -33,9 +34,10 @@ export const Home = () => {
                             <HiDownload size={26} />
                         </a>
                     </div>
+
                 </div>
                 <div className="w-full md:w-1/2 flex justify-center items-center z-20">
-                    <img src={Potrait} alt="Kemboi" className="w-64 h-70 rounded-lg transform transition duration-500 hover:scale-110" />
+                    <img src={Potrait} alt="Kemboi" className="w-72 h-auto rounded-lg transform transition duration-500 hover:scale-110" />
                 </div>
             </section>
             <About />
