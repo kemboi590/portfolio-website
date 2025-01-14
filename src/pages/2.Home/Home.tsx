@@ -1,5 +1,5 @@
 import { ReactTyped } from "react-typed";
-import Potrait from '../../assets/images/kemboi.jpg'
+import Potrait from '../../assets/images/mydp.jpg'
 import Resume from '../../assets/files/Resume.pdf';
 import { HiDownload } from 'react-icons/hi'
 import About from "../3.About/About";
@@ -37,7 +37,7 @@ export const Home = () => {
 
                 </div>
                 <div className="w-full md:w-1/2 flex justify-center items-center z-20">
-                    <img src={Potrait} alt="Kemboi" className="w-72 h-auto rounded-lg transform transition duration-500 hover:scale-110" />
+                    <img src={Potrait} alt="Kemboi" className="w-1/2 rounded-lg transform transition duration-500 hover:scale-110" />
                 </div>
             </section>
             <About />

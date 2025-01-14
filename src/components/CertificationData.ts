@@ -9,6 +9,7 @@ import MSAStudentMentor from '../assets/images/certifications/MLSA-Mentor.png'
 import MSAStudentMentee from '../assets/images/certifications/MLSA-mentee-Logo.png'
 import AzureDBMySQLEmerald from '../assets/images/certifications/mySQL-Emerald-Logo.png'
 import AzureDBMySQLGold from '../assets/images/certifications/mySQL-Gold-Logo.png'
+import MVPBadge from '../assets/images/certifications/MVPBadge.png'
 
 interface TypeCertification {
     id: number;
@@ -42,38 +43,45 @@ export const CertificationData: TypeCertification[] = [
         certTitle: 'Foundational C# with Microsoft',
         certLink: 'https://www.freecodecamp.org/certification/fcca831935a-2d31-479a-bd5b-25f6d3913959/foundational-c-sharp-with-microsoft'
     },
+  
     {
         id: 5,
+        certLogo: MVPBadge,
+        certTitle: 'Microsoft MVP Award',
+        certLink: 'https://stdntpartners-my.sharepoint.com/:b:/g/personal/brian_kemboi_studentambassadors_com/EYIyNAdGpmlOujk_oJhf0_QBEVJnt0WnP9CmSmalSJzwHg?e=ydkU9N'
+    },
+    {
+        id: 6,
         certLogo: SERNStack,
         certTitle: 'SERN Stack Developer',
         certLink: 'https://stdntpartners-my.sharepoint.com/:i:/g/personal/brian_kemboi_studentambassadors_com/ET0y_4DQE8dPmevniCsnJrIBC3wNjK8k9cRiVCIReuBVGQ?e=ygKvaG'
     },
     {
-        id: 6,
+        id: 7,
         certLogo: MSAStudentTrainer,
         certTitle: 'Microsoft Learn Student Ambassadors Student Trainer',
         certLink: 'https://www.credly.com/badges/18f07a50-581f-4252-a288-f63bfa3180bd/linked_in_profile'
     },
     {
-        id: 7,
+        id: 8,
         certLogo: MSAStudentMentor,
         certTitle: 'Microsoft Learn Student Ambassadors Mentor',
         certLink: 'https://www.credly.com/badges/b97d71c1-957a-41c1-bc68-92925a0d162d/linked_in_profile'
     },
     {
-        id: 8,
+        id: 9,
         certLogo: MSAStudentMentee,
         certTitle: 'Microsoft Learn Student Ambassadors Mentee',
         certLink: 'https://www.credly.com/badges/833820ee-6731-4195-82a6-ecfeb02104a7/public_url'
     },
     {
-        id: 9,
+        id: 10,
         certLogo: AzureDBMySQLEmerald,
         certTitle: 'Azure Database for MySQL - Emerald Contributor',
         certLink: 'https://www.credly.com/badges/cbf32685-e02f-41f8-8a08-e7eee076234b/public_url'
     },
     {
-        id: 10,
+        id: 11,
         certLogo: AzureDBMySQLGold,
         certTitle: 'Azure Database for MySQL - Gold Contributor',
         certLink: 'https://www.credly.com/badges/13cf3216-54c3-48cf-b287-9b70597762dd/public_url'

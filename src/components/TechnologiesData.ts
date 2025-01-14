@@ -1,7 +1,7 @@
 import ReactLogo from '../assets/images/technologies/reactLogo.jpeg'
 import NodeLogo from '../assets/images/technologies/nodeLogo.jpeg'
 import ExpressLogo from '../assets/images/technologies/ExpressLogo.png'
-import MongoDBLogo from '../assets/images/technologies/mongo.png'
+import DotnetLogo from '../assets/images/technologies/net.png'
 import TailwindLogo from '../assets/images/technologies/tailwind.png'
 import HonoLogo from '../assets/images/technologies/hono.jpeg'
 import GitHubLogo from '../assets/images/technologies/GitHub.webp'
@@ -20,24 +20,25 @@ interface TypeTech {
 export const TechnologiesData: TypeTech[] = [
     {
         id: 1,
+        techName: 'Dotnet',
+        techLogo: DotnetLogo
+    },
+    {
+        id: 2,
         techName: 'React',
         techLogo: ReactLogo
     },
     {
-        id: 2,
+        id: 3,
         techName: 'Node.js',
         techLogo: NodeLogo
     },
     {
-        id: 3,
+        id: 4,
         techName: 'Express.js',
         techLogo: ExpressLogo
     },
-    {
-        id: 4,
-        techName: 'MongoDB',
-        techLogo: MongoDBLogo
-    },
+    
     {
         id: 5,
         techName: 'TailwindCSS',
